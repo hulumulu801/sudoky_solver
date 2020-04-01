@@ -59,16 +59,16 @@ sudoku_solver.py - основной скрипт.
 
 - Если kali_linux или ubuntu:
 
-открываем терминал и вставляем следующее содержимое:
+	* открываем терминал и вставляем следующее содержимое:
 
-sudo apt-get update
+		sudo apt-get update
 
-sudo apt-get upgrade
+		sudo apt-get upgrade
 
-sudo apt-get dist-upgrade
+		sudo apt-get dist-upgrade
 
-sudo apt install git
+		sudo apt install git
 
-cd --
+		cd --
 
-git clone https://github.com/hulumulu801/sudoky_solver.git
+		git clone https://github.com/hulumulu801/sudoky_solver.git
