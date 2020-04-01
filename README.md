@@ -33,27 +33,32 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/8.png)
 
 # Описание файлов:
-data - папка, в которую необходимо закинуть скрин как показано выше
 
-colab_train_pict.py - файл, как я создавал н.сеть digit_recognition.hdf5
+	- оСНОВНЫЕ ФАЙЛЫ:
 
-colab_train_solver_keras_tuner.py - файл, как я искал лучшую модель для решения судоку с использованием kerastuner
+		data - папка, в которую необходимо закинуть скрин как показано выше
 
-colab_train_sudoku_solver.py - самая простая сеть для решения судоку
+		digit_recognition.hdf5 - веса нейросети, которая распознаёт цифры на изображениях.
 
-data.tar.gz.bz2 - архив с изображениями для обучения н.сети
+		install.py - установочник для linux(kali, ubuntu)
+		
+		reqairement.txt - зависимости для python3
+		
+		sudoku_solver.hdf5 - веса нейронки, которая решает судоку. (Т.К. github ограничил загрузку файлов до 25MB, я 			закину нейронку на google_disk)
+		
+		sudoku_solver.py - основной скрипт
+		
+	- ВСПОМОГАТЕЛЬНЫЕ ФАЙЛЫ(ФАЙЛЫ, КОТОРОЫЕ НЕ УЧАСТВУЮТ В РАСПОЗНОВАНИИ И РЕШЕНИИ СУДОКУ, О НИХ Я РАССКАЖУ НИЖЕ):
 
-digit_recognition.hdf5 - веса нейросети, которая распознаёт цифры на изображениях.
+		colab_train_pict.py - файл, как я создавал н.сеть digit_recognition.hdf5
 
-install.py - установочник для linux(kali, ubuntu)
+		colab_train_solver_keras_tuner.py - файл, как я искал лучшую модель для решения судоку с использованием 			kerastuner
 
-reqairement.txt - зависимости для python3
+		colab_train_sudoku_solver.py - самая простая сеть для решения судоку
 
-script_copy.py - скрипт, который создаст папки test, train, val и переместит в эти папки необходимое кол-во изображений для обучения н.сети
+		data.tar.gz.bz2 - архив с изображениями для обучения н.сети
 
-sudoku_solver.hdf5 - веса нейронки, которая решает судоку. (Т.К. github ограничил загрузку файлов до 25MB, я закину нейронку на google_disk)
-
-sudoku_solver.py - основной скрипт.
+		script_copy.py - скрипт, который создаст папки test, train, val и переместит в эти папки необходимое кол-во 			изображений для обучения н.сети
 
 # Как установить?:
 
