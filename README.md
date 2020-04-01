@@ -33,6 +33,8 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/8.png)
 
 # Описание файлов:
+data - папка, в которую необходимо закинуть скрин как показано выше
+
 colab_train_pict.py - файл, как я создавал н.сеть digit_recognition.hdf5
 
 colab_train_solver_keras_tuner.py - файл, как я искал лучшую модель для решения судоку с использованием kerastuner
