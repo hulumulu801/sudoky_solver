@@ -34,5 +34,8 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 
 # Описание файлов:
 digit_recognition.hdf5 - веса нейросети, которая распознаёт цифры на изображениях.
+
 sudoku_solver.hdf5 - веса нейронки, которая решает судоку.
+
 sudoku_solver.py - основной скрипт.
+
