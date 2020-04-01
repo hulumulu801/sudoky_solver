@@ -44,7 +44,7 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 		
 		reqairement.txt - зависимости для python3
 		
-		sudoku_solver.hdf5 - веса нейронки, которая решает судоку. (Т.К. github ограничил загрузку файлов до 25MB, я 			закину нейронку на google_disk)
+		sudoku_solver.hdf5 - веса нейронки, которая решает судоку. (Т.К. github ограничил загрузку файлов до 25MB, я закину нейронку на google_disk)
 		
 		sudoku_solver.py - основной скрипт
 		
@@ -52,13 +52,13 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 
 		colab_train_pict.py - файл, как я создавал н.сеть digit_recognition.hdf5
 
-		colab_train_solver_keras_tuner.py - файл, как я искал лучшую модель для решения судоку с использованием 			kerastuner
+		colab_train_solver_keras_tuner.py - файл, как я искал лучшую модель для решения судоку с использованием kerastuner
 
 		colab_train_sudoku_solver.py - самая простая сеть для решения судоку
 
 		data.tar.gz.bz2 - архив с изображениями для обучения н.сети
 
-		script_copy.py - скрипт, который создаст папки test, train, val и переместит в эти папки необходимое кол-во 			изображений для обучения н.сети
+		script_copy.py - скрипт, который создаст папки test, train, val и переместит в эти папки необходимое кол-во изображений для обучения н.сети
 
 # Как установить?:
 
