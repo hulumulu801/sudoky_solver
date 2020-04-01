@@ -32,4 +32,7 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 	* этап_4: сдесь происходит решение судоку и вывод решения в терминал.
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/8.png)
 
-
+# Описание файлов:
+digit_recognition.hdf5 - веса нейросети, которая распознаёт цифры на изображениях.
+sudoku_solver.hdf5 - веса нейронки, которая решает судоку.
+sudoku_solver.py - основной скрипт.
