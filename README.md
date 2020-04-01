@@ -55,3 +55,20 @@ sudoku_solver.hdf5 - веса нейронки, которая решает су
 
 sudoku_solver.py - основной скрипт.
 
+# Как установить?:
+
+Если kali_linux или ubuntu:
+
+открываем терминал и вставляем следующее содержимое:
+
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get dist-upgrade
+
+sudo apt install git
+
+cd --
+
+git clone https://github.com/hulumulu801/sudoky_solver.git
