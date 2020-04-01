@@ -6,31 +6,31 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 
 # Как происходит процесс?:
 
-- переходим по адресу: https://sudoku.com/ru
+	- переходим по адресу: https://sudoku.com/ru
 
-Т.К. распознование цифр с помощью нейронной сети я сделал именно для этого сайта, для других - работать не будет
-![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/1.png)
+	Т.К. распознование цифр с помощью нейронной сети я сделал именно для этого сайта, для других - работать не будет
+	![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/1.png)
 
-- нажимаем Shift + Print Screen(linux) и выделяем квадрат с судокой, должно получиться следующее:
-![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/2.png)
+	- нажимаем Shift + Print Screen(linux) и выделяем квадрат с судокой, должно получиться следующее:
+	![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/2.png)
 
-- копируем наше изображение с судокой в папку data по следующей директории .../sudoky_solver/data. Внимательно: Путь до папки data не должен содержать русских букв!
-![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/3.png)
+	- копируем наше изображение с судокой в папку data по следующей директории .../sudoky_solver/data. Внимательно: Путь до папки data не должен содержать русских букв!
+	![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/3.png)
 
-- запускаем скрипт sudoku_solver.py, он выполняет несколько этапов:
+	- запускаем скрипт sudoku_solver.py, он выполняет несколько этапов:
 
-	* этап_1: с помощью cv2 обрежет изображение до квадрата, выделит линии, отрисует цифры. Это сделано для того, чтобы нейросеть лучше воспринимала изображения с цифрами.
-![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/4.png)
+		* этап_1: с помощью cv2 обрежет изображение до квадрата, выделит линии, отрисует цифры. Это сделано для того, чтобы нейросеть лучше воспринимала изображения с цифрами.
+		![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/4.png)
 
-	* этап_2: так же, с помощью cv2, разбиваем картинку на мелкие квадраты, изображений в папке станет - 81, ровно столько, сколько квадратов.
-![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/5.png)
+		* этап_2: так же, с помощью cv2, разбиваем картинку на мелкие квадраты, изображений в папке станет - 81, ровно столько, сколько квадратов.
+		![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/5.png)
 
-	* этап_3: далее начнется распознавание картинок (.png) и превращение их в тексотовый файл (numb_regocnition.txt).
-![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/6.png)
-![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/7.png)
+		* этап_3: далее начнется распознавание картинок (.png) и превращение их в тексотовый файл (numb_regocnition.txt).
+		![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/6.png)
+		![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/7.png)
 
-	* этап_4: сдесь происходит решение судоку и вывод решения в терминал.
-![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/8.png)
+		* этап_4: сдесь происходит решение судоку и вывод решения в терминал.
+		![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/8.png)
 
 # Описание файлов:
 
