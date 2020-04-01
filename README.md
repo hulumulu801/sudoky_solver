@@ -62,6 +62,8 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 
 # Как установить?:
 
+Внимание: Путь не должен содержать русских букв!!
+
 - Если kali_linux или ubuntu:
 
 	РЕКОМЕНДУЮ ИСПОЛЬЗОВАТЬ ПЕРЕД ЗАПУСКОМ: virtualenv
@@ -78,4 +80,7 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 
 		cd --
 
+
 		git clone https://github.com/hulumulu801/sudoky_solver.git
+
+		python3 install.py
