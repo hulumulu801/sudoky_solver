@@ -26,6 +26,10 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/5.png)
 
 	* этап_3: далее начнется распознавание картинок (.png) и превращение их в тексотовый файл (numb_regocnition.txt).
-		  рис.6, рис.7
+![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/6.png)
+![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/7.png)
+
 	* этап_4: сдесь происходит решение судоку и вывод решения в терминал.
-		  рис.8
+![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/8.png)
+
+
