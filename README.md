@@ -14,3 +14,6 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 - нажимаем Shift + Print Screen(linux) и выделяем квадрат с судокой, должно получиться следующее:
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/2.png)
 
+- копируем наше изображение с судокой в папку data по следующей директории .../sudoky_solver/data. Внимательно: Путь до папки data не должен содержать русских букв!
+![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/3.png)
+
