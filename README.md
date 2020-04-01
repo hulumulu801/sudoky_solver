@@ -17,7 +17,7 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 - копируем наше изображение с судокой в папку data по следующей директории .../sudoky_solver/data. Внимательно: Путь до папки data не должен содержать русских букв!
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/3.png)
 
-- запускаем скрипт sudoku_solver.py, он выполняет несколько этапов:
+- запускаем скрипт sudoku_solver.py(python3 sudoku_solver.py), он выполняет несколько этапов:
 
 	* этап_1: с помощью cv2 обрежет изображение до квадрата, выделит линии, отрисует цифры. Это сделано для того, чтобы нейросеть лучше воспринимала изображения с цифрами.
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/4.png)
