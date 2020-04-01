@@ -12,5 +12,6 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 Т.К. распознование цифр с помощью нейронной сети я сделал именно для этого сайта, для других - работать не будет
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/1.png)
 
-- нажимаем Shift + Print Screen и выделяем квадрат с судокой, должно получиться следующее:
+- нажимаем Shift + Print Screen(linux) и выделяем квадрат с судокой, должно получиться следующее:
 ![Image alt](https://github.com/hulumulu801/sudoky_solver/blob/master/picts/2.png)
+
