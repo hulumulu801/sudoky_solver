@@ -84,5 +84,7 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 
 
 		git clone https://github.com/hulumulu801/sudoky_solver.git
+		
+		cd sudoky_solver/
 
 		python3 install.py
