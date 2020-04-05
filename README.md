@@ -115,4 +115,6 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 
 		pip3 install -r reqairement.txt
 
-	* далее устанавливаем tensorflow. 
+	* далее устанавливаем tensorflow:
+	
+		Тут внимательно, т.к. не все процессоры поддерживают инструкцию avx. Если ваш процессор не поддерживает инструкцию avx, ищем tf без инструкции avx. Мне помог вот этот релиз(https://github.com/mdsimmo/tensorflow-community-wheels/releases/download/1.13.1_cpu_py3_6_amd64/tf_nightly-1.13.1-cp36-cp36m-linux_x86_64.whl)
