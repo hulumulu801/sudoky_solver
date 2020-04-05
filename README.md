@@ -4,7 +4,7 @@
 
 **kali_linux**(VERSION = "2020.1", версия ядра = 5.4.0-kali4-amd64)
 
-**ubuntu**(VERSION = "18.04.3 LTS (Bionic Beaver)"; версия ядра = 5.3.0-28-generic; процессор - AMD® Ryzen 7 1800x eight-core processor × 16; графика - GeForce GTX 1080 Ti, NVIDIA-SMI 440.64, Driver Version: 440.64, CUDA Version: 10.2)
+**ubuntu**(VERSION = 18.04.3 LTS (Bionic Beaver); версия ядра = 5.3.0-28-generic; процессор = AMD® Ryzen 7 1800x eight-core processor × 16; графика = GeForce GTX 1080 Ti, NVIDIA-SMI 440.64, Driver Version: 440.64, CUDA Version: 10.2)
 
 # Как происходит процесс?:
 
