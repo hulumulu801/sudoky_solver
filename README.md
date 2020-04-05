@@ -91,9 +91,13 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 		
 - Если что-то пошло не так или другая ОС:
 
-	* скачиваем с github sudoku_solver:
+	* скачиваем с github sudoku_solver(с помощью командной строки и git):
 	
 		git clone https://github.com/hulumulu801/sudoky_solver.git
+		
+		или архивом:
+		
+		https://github.com/hulumulu801/sudoky_solver/archive/master.zip
 		
 	* скачиваем sudoku_solver.hdf5 с моего google_disk:
 	
