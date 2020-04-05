@@ -88,3 +88,23 @@ ubuntu(VERSION = "18.04.3 LTS (Bionic Beaver)", версия ядра = 5.3.0-28
 		cd sudoky_solver/
 
 		python3 install.py
+		
+- Если что-то пошло не так или другая ОС:
+
+	* скачиваем sudoku_solver.hdf5 с моего google_disk:
+	
+		https://drive.google.com/uc?export=download&id=1sX8qmDlamLpeTc4QMzx3eg7ZziZOFn0L
+
+		распаковывпем его
+
+	* обновляем pip и setuptuls:
+
+		pip3 install --upgrade pip
+
+		pip3 install --upgrade setuptools
+
+	* устанавливаем pip'ы:
+
+		pip3 install -r reqairement.txt
+
+	* далее устанавливаем tensorflow. 
