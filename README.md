@@ -1,6 +1,6 @@
 Я использовал python3, тестировал скрипты на:
 
-**kali_linux**(VERSION = "2020.1", версия ядра = 5.4.0-kali4-amd64)
+**kali_linux**(VERSION = "2020.1", версия ядра = 5.4.0-kali4-amd64; процессор = Intel® Pentium(R) CPU G4560 @ 3.50GHz × 4; графика = Intel® HD Graphics 610 (Kaby Lake GT1))
 
 **ubuntu**(VERSION = 18.04.3 LTS (Bionic Beaver); версия ядра = 5.3.0-28-generic; процессор = AMD® Ryzen 7 1800x eight-core processor × 16; графика = GeForce GTX 1080 Ti, NVIDIA-SMI 440.64, Driver Version: 440.64, CUDA Version: 10.2)
 
