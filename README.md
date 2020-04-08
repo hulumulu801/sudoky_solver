@@ -137,8 +137,15 @@
 
 	6. Остается только скачать её себе с google_disk
 
+# Обучаем нейронную сеть для решения судоку:
 
+	1. Качаем отсюда https://www.kaggle.com/bryanpark/sudoku/data данные для обучения(тут один миллион примеров с судокой)
 
+	2. Закидываем скаченный файл(sudoku.zip) себе на google_disk
+
+	3. Переходим в google colab, не забываем включть GPU(Runtime - Change runtime type - Hardware accelerator - GPU - Save)
+
+	4. Тут два пути:
 
 
 
