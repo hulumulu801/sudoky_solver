@@ -1,3 +1,5 @@
+# В РАЗРАБОТКЕ...
+
 Я использовал python3, тестировал скрипты на:
 
 **kali_linux**(VERSION = "2020.1", версия ядра = 5.4.0-kali4-amd64; процессор = Intel® Pentium(R) CPU G4560 @ 3.50GHz × 4; графика = Intel® HD Graphics 610 (Kaby Lake GT1))
@@ -116,3 +118,35 @@
 	* далее устанавливаем tensorflow:
 	
 		Тут внимательно, т.к. не все процессоры поддерживают инструкцию avx. Если ваш процессор не поддерживает инструкцию avx, ищем tf без инструкции avx. Мне помог вот этот релиз(https://github.com/mdsimmo/tensorflow-community-wheels/releases/download/1.13.1_cpu_py3_6_amd64/tf_nightly-1.13.1-cp36-cp36m-linux_x86_64.whl)
+
+# Обучаем нейронную сеть для распознования цифр:
+
+	1. Переходим в папку other:
+
+		cd other/
+
+	2. Запускаем скрипт script_copy.py:
+
+		python3 script_copy.py
+
+	3. Архив data_pict.tar закидываем в корень своего google_disk
+
+	4. Переходим в google colab, не забываем включть GPU(Runtime - Change runtime type - Hardware accelerator - GPU - Save)
+
+	5. Вставляем в google colab весь код, который находится в **colab_train_pict.py**, в итоге получим сеть у которой аккуратность на тестовых данных составит: 99.77%(+-)
+
+	6. Остается только скачать её себе с google_disk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
