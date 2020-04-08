@@ -123,35 +123,35 @@
 
 - Обучаем нейронную сеть для распознования цифр:
 
-	1. Переходим в папку other:
+		1. Переходим в папку other:
 
-		cd other/
+			cd other/
 
-	2. Запускаем скрипт script_copy.py:
+		2. Запускаем скрипт script_copy.py:
 
-		python3 script_copy.py
+			python3 script_copy.py
 
-	3. Архив data_pict.tar закидываем в корень своего google_disk
+		3. Архив data_pict.tar закидываем в корень своего google_disk
 
-	4. Переходим в google colab, не забываем включть GPU(Runtime - Change runtime type - Hardware accelerator - GPU - Save)
+		4. Переходим в google colab, не забываем включть GPU(Runtime - Change runtime type - Hardware accelerator - GPU - Save)
 
-	5. Вставляем в google colab весь код, который находится в **colab_train_pict.py**, в итоге получим сеть у которой аккуратность на тестовых данных составит: 99.77%(+-)
+		5. Вставляем в google colab весь код, который находится в **colab_train_pict.py**, в итоге получим сеть у которой аккуратность на тестовых данных составит: 99.77%(+-)
 
-	6. Остается только скачать её себе с google_disk
+		6. Остается только скачать её себе с google_disk
 
 - Обучаем нейронную сеть для решения судоку:
 
-	1. Качаем отсюда https://www.kaggle.com/bryanpark/sudoku/data данные для обучения(тут один миллион примеров с судокой)
+		1. Качаем отсюда https://www.kaggle.com/bryanpark/sudoku/data данные для обучения(тут один миллион примеров с судокой)
 
-	2. Закидываем скаченный файл(sudoku.zip) себе на google_disk
+		2. Закидываем скаченный файл(sudoku.zip) себе на google_disk
 
-	3. Переходим в google colab, не забываем включть GPU(Runtime - Change runtime type - Hardware accelerator - GPU - Save)
+		3. Переходим в google colab, не забываем включть GPU(Runtime - Change runtime type - Hardware accelerator - GPU - Save)
 
-	4. Тут два пути:
+		4. Тут два пути:
 
-		а) создаем простую сеть, но аккуратность на тестовых данных составит: 80% - 83%, для этого вставляем весь код из **colab_train_sudoku_solver.py**
+			а) создаем простую сеть, но аккуратность на тестовых данных составит: 80% - 83%, для этого вставляем весь код из **colab_train_sudoku_solver.py**
 
-		б) хотим больше, keras-tuner в помощь)! Вставляем весь код из **colab_train_solver_keras_tuner.py**. У меня аккуратность на тестовых данных составляла: 90% - 91%(функция активации - "tanh", оптимизатор - "rmsprop" или "SGD", точно не помню!)
+			б) хотим больше, keras-tuner в помощь)! Вставляем весь код из **colab_train_solver_keras_tuner.py**. У меня аккуратность на тестовых данных составляла: 90% - 91%(функция активации - "tanh", оптимизатор - "rmsprop" или "SGD", точно не помню!)
 
 	P.S.: Размер мини-выборки(batch_size) меняем, по умолчанию - 64(сделал для быстроты обучения, хотим, что бы нейронка обучалась на всех данных для обучения - ставим 1)
 
