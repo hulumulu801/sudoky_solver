@@ -1,5 +1,3 @@
-# В РАЗРАБОТКЕ...
-
 Я использовал python3, тестировал скрипты на:
 
 **kali_linux**(VERSION = "2020.1", версия ядра = 5.4.0-kali4-amd64; процессор = Intel® Pentium(R) CPU G4560 @ 3.50GHz × 4; графика = Intel® HD Graphics 610 (Kaby Lake GT1))
