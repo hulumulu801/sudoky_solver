@@ -8,6 +8,9 @@
 
 [![Могут ли нейронные сети решать судоку? + гайд по установке](https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg](https://www.youtube.com/watch?v=yCUjlAk4PjM&t)
 
+[![Могут ли нейронные сети решать судоку? + гайд по установке](https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+
+
 - переходим по адресу: https://sudoku.com/ru
 
 Т.К. распознование цифр с помощью нейронной сети я сделал именно для этого сайта, для других - работать не будет
