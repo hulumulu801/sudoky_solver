@@ -6,7 +6,7 @@
 
 # Как происходит процесс?:
 
-[![Alt text for your video](https://img.youtube.com/vi/T-yCUjlAk4PjM&t/0.jpg)](https://www.youtube.com/watch?v=yCUjlAk4PjM&t=1s)]
+[![Alt text for your video](https://img.youtube.com/vi/yCUjlAk4PjM&t/0.jpg)](https://www.youtube.com/watch?v=yCUjlAk4PjM&t)
 
 - переходим по адресу: https://sudoku.com/ru
 
