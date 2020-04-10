@@ -6,6 +6,8 @@
 
 # Как происходит процесс?:
 
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?v=yCUjlAk4PjM&t=1)
+
 - переходим по адресу: https://sudoku.com/ru
 
 Т.К. распознование цифр с помощью нейронной сети я сделал именно для этого сайта, для других - работать не будет
