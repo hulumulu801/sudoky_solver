@@ -6,6 +6,8 @@
 
 # Как происходит процесс?:
 
+[![Alt text for your video](https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+
 [![Могут ли нейронные сети решать судоку? + гайд по установке](https://img.youtube.com/vi/yCUjlAk4PjM&t/0.jpg)](https://www.youtube.com/watch?v=yCUjlAk4PjM&t)
 
 - переходим по адресу: https://sudoku.com/ru
